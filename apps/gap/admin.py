@@ -17,6 +17,7 @@ class OpinionAdmin(admin.ModelAdmin):
 class CommentAdmin(admin.ModelAdmin):
     list_display = ['body', 'author', 'like_count']
 
+
 @admin.register(OpinionLike)
 class OpinionLikeAdmin(admin.ModelAdmin):
     pass
